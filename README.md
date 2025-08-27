@@ -37,16 +37,9 @@ It supports both:
 
 ▶️ Running with OpenAI (Paid LLM)
 
-1. Get an OpenAI API Key → https://platform.openai.com/  
-2. Set the key as environment variable:
-
-   Linux / Mac:
-   export OPENAI_API_KEY=your_api_key
-
-   Windows (PowerShell):
-   setx OPENAI_API_KEY "your_api_key"
-
-3. Run the app:
+1. Get an OpenAI API Key → https://platform.openai.com/
+   
+2. Run the app:
    streamlit run app.py
 
 Note: If you see "Error 429 (Rate Limit)", it means your API quota is exceeded.  
